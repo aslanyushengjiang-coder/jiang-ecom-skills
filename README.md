@@ -18,7 +18,9 @@ Skill 是一份装进 AI 里的工作说明，装上之后 AI 会按固定的方
 
 ### 方式一：打开网页自己挑
 
-下载这个仓库，双击 `assets/ecom-skills.html`，用浏览器打开就行。不用联网，不用账号。
+在线直接看：<https://aslanyushengjiang-coder.github.io/jiang-ecom-skills/>
+
+打不开的话，下载这个仓库，双击 `assets/ecom-skills.html`，用浏览器打开就行，不用联网，不用账号。
 
 左边选平台，上面选工种，中间搜你要干的活（比如“差评分析”“主图”“达人”）。点开卡片能看到中文说明、来源仓库、开源许可和安装用的那段话。
 
