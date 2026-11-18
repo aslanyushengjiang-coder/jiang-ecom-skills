@@ -103,7 +103,7 @@ def main():
         print(json.dumps({'total': len(hits), 'items': [dict(s, install_prompt=prompt_for(s)) for s in hits[:a.limit]]}, ensure_ascii=False, indent=2))
         return
     if not hits:
-        print('没找到。换个说法再试，或者去掉平台只按工种找。目录没有覆盖全网，找不到不代表没人做过。')
+        print('没找到。换个说法再试，或者去掉平台只按工种找。')
         return
     print(f'找到 {len(hits)} 个，先列 {min(a.limit, len(hits))} 个：\n')
     print('\n\n'.join(show(s) for s in hits[:a.limit]))
