@@ -287,7 +287,7 @@ document.addEventListener('keydown', e => {
   if(e.key==='Escape') closeDrawer();
   if(e.key==='/' && document.activeElement!==$('q')){ e.preventDefault(); state.view='all'; render(); $('q').focus(); }
 });
-$('foot').innerHTML = `目录更新于 ${esc(DATA.updated_at)}，共 ${fmt(S.length)} 个 Skill，来自 ${repos.size} 个 GitHub 公开仓库，只收有开源许可的。只核对了来源和许可，没有逐个安装测试。<br>${esc(DATA.credit)}`;
+$('foot').innerHTML = `目录更新于 ${esc(DATA.updated_at)}，共 ${fmt(S.length)} 个 Skill，来自 ${repos.size} 个 GitHub 公开仓库，只收有开源许可的。<br>${esc(DATA.credit)}`;
 render();
 </script>
 </body>
