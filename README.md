@@ -50,19 +50,16 @@ git clone https://github.com/aslanyushengjiang-coder/jiang-ecom-skills.git ~/.cl
 其他 AI 工具把文件夹放进它自己的 Skill 目录即可。查找脚本需要 Python 3.8 以上，不用装别的库：
 
 ```bash
-python3 scripts/find.py --query "差评 分析" --platform Amazon
+python3 scripts/find.py --query "带货视频"
 python3 scripts/find.py --flow "TikTok Shop"
 python3 scripts/find.py --stats
 ```
 
-## 要先知道的
+## 说明
 
-- **只做收录和指路。** 每个 Skill 归原作者所有，许可以各自仓库的 LICENSE 为准。这里只放名称、说明、链接和许可信息，不复制 Skill 正文。
-- **没有逐个安装测试。** 只核对了来源和开源许可，好不好用要自己装了试。
-- **有的 Skill 要另外配数据接口、账号或付费服务**，点开卡片看原文，费用以原文为准。
-- **中文名和说明大部分是 AI 标的**，按作者写的说明生成，可能有不准的地方，以原文为准。
-- **没有覆盖全网。** 只收了有明确开源许可、能确认是电商用途的仓库；搜不到不代表没人做过。
-- **来源不平均。** 亚马逊的 720 个里有 602 个来自同一个仓库。
+- 每个 Skill 归原作者所有，许可看各自仓库的 LICENSE。这里只放名称、说明、链接和许可信息，不复制 Skill 正文。
+- 中文名和说明里，156 个沿用张滚滚公开的目录，其余由 AI 按作者写的说明标注，来源见 [NOTICE.md](NOTICE.md)。
+- 亚马逊的 720 个里有 602 个来自同一个仓库。
 - 目录更新于 2026-11-18。
 
 ## 来源和致谢
